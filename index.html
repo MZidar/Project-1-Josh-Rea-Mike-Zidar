@@ -5,19 +5,868 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drink maker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/index.css">
 
     <script type ="text/javascript" src ="index.js" defer></script>
-
+   
+    <script type ="text/javascript" src ="index.js" defer></script>
+  
 </head>
 
 
 <body>
   
+
+  <div class="container">
+    <h2>Pick your drink!</h2>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Drinks
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" id="drop">
+        
+        <li>
+          <a class="test" tabindex="-1" href="#">A<span class="caret"></span></a>
+          <ul class="dropdown-menu column4">
+            <li><a tabindex="-1" href="#">A Day at the Beach</a></li>
+            <li><a tabindex="-1" href="#">A Furlong Too Late</a></li>
+            <li><a tabindex="-1" href="#">A Gilligan's Island</a></li>
+            <li><a tabindex="-1" href="#">A Midsummernight Dream</a></li>
+            <li><a tabindex="-1" href="#">A Night In Old Mandalay</a></li>
+            <li><a tabindex="-1" href="#">A Piece of Ass</a></li>
+            <li><a tabindex="-1" href="#">A Splash of Nash</a></li>
+            <li><a tabindex="-1" href="#">A True Amaretto Sour</a></li>
+            <li><a tabindex="-1" href="#">A. J.</a></li>
+            <li><a tabindex="-1" href="#">A.D.M. (After Dinner Mint)</a></li>
+            <li><a tabindex="-1" href="#">A1</a></li>
+            <li><a tabindex="-1" href="#">Abbey Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Abbey Martini</a></li>
+            <li><a tabindex="-1" href="#">ABC</a></li>
+            <li><a tabindex="-1" href="#">Abilene</a></li>
+            <li><a tabindex="-1" href="#">Absinthe #2</a></li>
+            <li><a tabindex="-1" href="#">Absolut Evergreen</a></li>
+            <li><a tabindex="-1" href="#">Absolut limousine</a></li>
+            <li><a tabindex="-1" href="#">Absolut Sex</a></li>
+            <li><a tabindex="-1" href="#">Absolut Stress #2</a></li>
+            <li><a tabindex="-1" href="#">Absolut Summertime</a></li>
+            <li><a tabindex="-1" href="#">Absolutely Cranberry Smash</a></li>
+            <li><a tabindex="-1" href="#">Absolutely Fabulous</a></li>
+            <li><a tabindex="-1" href="#">Absolutly Screwed Up</a></li>
+            <li><a tabindex="-1" href="#">Acapulco</a></li>
+            <li><a tabindex="-1" href="#">Ace</a></li>
+            <li><a tabindex="-1" href="#">ACID</a></li>
+            <li><a tabindex="-1" href="#">Adam</a></li>
+            <li><a tabindex="-1" href="#">Adam & Eve</a></li>
+            <li><a tabindex="-1" href="#">Adam Bomb</a></li>
+            <li><a tabindex="-1" href="#">Adam Sunrise</a></li>
+            <li><a tabindex="-1" href="#">Addington</a></li>
+            <li><a tabindex="-1" href="#">Addison</a></li>
+            <li><a tabindex="-1" href="#">Addison Special</a></li>
+            <li><a tabindex="-1" href="#">Adios Amigos Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Adonis Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Affair</a></li>
+            <li><a tabindex="-1" href="#">After Dinner Cocktail</a></li>
+            <li><a tabindex="-1" href="#">After Five</a></li>
+            <li><a tabindex="-1" href="#">After Sex</a></li>
+            <li><a tabindex="-1" href="#">After Supper Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Alabama Slammer</a></li>
+            <li><a tabindex="-1" href="#">Alaska Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Alexander</a></li>
+            <li><a tabindex="-1" href="#">Alfie Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Algonquin</a></li>
+            <li><a tabindex="-1" href="#">Alice Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Alice in Wonderland</a></li>
+            <li><a tabindex="-1" href="#">Allegheny</a></li>
+            <li><a tabindex="-1" href="#">Allies Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Almond Chocolate Coffee</a></li>
+            <li><a tabindex="-1" href="#">Almond Joy</a></li>
+            <li><a tabindex="-1" href="#">Aloha Fruit Punch</a></li>
+            <li><a tabindex="-1" href="#">Amaretto and Cream</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Fizz</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Liqueur</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Mist</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Rose</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Shake</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Sour</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Stinger</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Stone Sour</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Stone Sour Alternative</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Sunrise</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Sunset</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Sweet & Sour</a></li>
+            <li><a tabindex="-1" href="#">Amaretto Tea</a></li>
+            <li><a tabindex="-1" href="#">Americano</a></li>
+            <li><a tabindex="-1" href="#">Angel Face</a></li>
+            <li><a tabindex="-1" href="#">Angelica Liqueur</a></li>
+            <li><a tabindex="-1" href="#">Apello</a></li>
+            <li><a tabindex="-1" href="#">Aperol Sprtiz</a></li>
+            <li><a tabindex="-1" href="#">Apple Berry Smoothie</a></li>
+            <li><a tabindex="-1" href="#">Apple Cider Punch</a></li>
+            <li><a tabindex="-1" href="#">Apple Grande</a></li>
+            <li><a tabindex="-1" href="#">Apple Highball</a></li>
+            <li><a tabindex="-1" href="#">Apple Karate</a></li>
+            <li><a tabindex="-1" href="#">Apple Pie With a Apple SlammerCrust</a></li>
+            <li><a tabindex="-1" href="#">Apple Slammer</a></li>
+            <li><a tabindex="-1" href="#">Applecar</a></li>
+            <li><a tabindex="-1" href="#">Applejack</a></li>
+            <li><a tabindex="-1" href="#">Apricot Lady</a></li>
+            <li><a tabindex="-1" href="#">Apricot Punch</a></li>
+            <li><a tabindex="-1" href="#">Aquamarine</a></li>
+            <li><a tabindex="-1" href="#">Archbishop</a></li>
+            <li><a tabindex="-1" href="#">Arctic Fish</a></li>
+            <li><a tabindex="-1" href="#">Arctic Mouthwash</a></li>
+            <li><a tabindex="-1" href="#">Arise My Love</a></li>
+            <li><a tabindex="-1" href="#">Arizona Antifreeze</a></li>
+            <li><a tabindex="-1" href="#">Arizona Stingers</a></li>
+            <li><a tabindex="-1" href="#">Arizona Twister</a></li>
+            <li><a tabindex="-1" href="#">Army Special</a></li>
+            <li><a tabindex="-1" href="#">Arthur Tompkins</a></li>
+            <li><a tabindex="-1" href="#">Artillery</a></li>
+            <li><a tabindex="-1" href="#">Artillery Punch</a></li>
+            <li><a tabindex="-1" href="#">AT&T</a></li>
+            <li><a tabindex="-1" href="#">Atlantic Sun</a></li>
+            <li><a tabindex="-1" href="#">Atomic Lokade</a></li>
+            <li><a tabindex="-1" href="#">Auburn Headbanger</a></li>
+            <li><a tabindex="-1" href="#">Autumn Garibaldi</a></li>
+            <li><a tabindex="-1" href="#">Avalanche</a></li>
+            <li><a tabindex="-1" href="#">Avalon</a></li>
+            <li><a tabindex="-1" href="#">Aviation</a></li>
+            <li><a tabindex="-1" href="#">Aztec Punch</a></li>    
+          
+          </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">B<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">B-52</a></li>
+            <li><a tabindex="-1" href="#">B-53</a></li>
+            <li><a tabindex="-1" href="#">Baby Eskimo</a></li>
+            <li><a tabindex="-1" href="#">Baby Guinness</a></li>
+            <li><a tabindex="-1" href="#">Bacardi Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Bahama Mama</a></li>
+            <li><a tabindex="-1" href="#">Bailey's Dream Shake</a></li>
+            <li><a tabindex="-1" href="#">Balmoral</a></li>
+            <li><a tabindex="-1" href="#">Banana Cantaloupe Smoothie</a></li>
+            <li><a tabindex="-1" href="#">Banana Cream Pi</a></li>
+            <li><a tabindex="-1" href="#">Banana Daiquiri</a></li>
+            <li><a tabindex="-1" href="#">Banana Milk Shake</a></li>
+            <li><a tabindex="-1" href="#">Banana Strawberry Shake</a></li>
+            <li><a tabindex="-1" href="#">Banana Strawberry Shake Daiquiri</a></li>
+            <li><a tabindex="-1" href="#">Barracuda</a></li>
+            <li><a tabindex="-1" href="#">Bee's Knees</a></li>
+            <li><a tabindex="-1" href="#">Belgian Blue</a></li>
+            <li><a tabindex="-1" href="#">Bellini</a></li>
+            <li><a tabindex="-1" href="#">Bellini Martini</a></li>
+            <li><a tabindex="-1" href="#">Bermuda Highball</a></li>
+            <li><a tabindex="-1" href="#">Berry Deadly</a></li>
+            <li><a tabindex="-1" href="#">Between The Sheets</a></li>
+            <li><a tabindex="-1" href="#">Bible Belt</a></li>
+            <li><a tabindex="-1" href="#">Big Red</a></li>
+            <li><a tabindex="-1" href="#">Bijou</a></li>
+            <li><a tabindex="-1" href="#">Black & Tan</a></li>
+            <li><a tabindex="-1" href="#">Black and Brown</a></li>
+            <li><a tabindex="-1" href="#">Black Forest Shake</a></li>
+            <li><a tabindex="-1" href="#">Black Russian</a></li>
+            <li><a tabindex="-1" href="#">Blackthorn</a></li>
+            <li><a tabindex="-1" href="#">Bleeding Surgeon</a></li>
+            <li><a tabindex="-1" href="#">Blind Russian</a></li>
+            <li><a tabindex="-1" href="#">Bloody Maria</a></li>
+            <li><a tabindex="-1" href="#">Bloody Mary</a></li>
+            <li><a tabindex="-1" href="#">Bloody Punch</a></li>
+            <li><a tabindex="-1" href="#">Blue Hurricane</a></li>
+            <li><a tabindex="-1" href="#">Blue Lagoon</a></li>
+            <li><a tabindex="-1" href="#">Blue Margarita</a></li>
+            <li><a tabindex="-1" href="#">Blue Mountain</a></li>
+            <li><a tabindex="-1" href="#">Blueberry Mojito</a></li>
+            <li><a tabindex="-1" href="#">Bluebird</a></li>
+            <li><a tabindex="-1" href="#">Bob Marley</a></li>
+            <li><a tabindex="-1" href="#">Bobby Burns Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Bombay Cassis</a></li>
+            <li><a tabindex="-1" href="#">Boomerang</a></li>
+            <li><a tabindex="-1" href="#">Boozy Snickers Milkshake</a></li>
+            <li><a tabindex="-1" href="#">Bora Bora</a></li>
+            <li><a tabindex="-1" href="#">Boston Sidecar</a></li>
+            <li><a tabindex="-1" href="#">Boston Sour</a></li>
+            <li><a tabindex="-1" href="#">Boulevardier</a></li>
+            <li><a tabindex="-1" href="#">Bounty Hunter</a></li>
+            <li><a tabindex="-1" href="#">Bourbon Sling</a></li>
+            <li><a tabindex="-1" href="#">Bourbon Sour</a></li>
+            <li><a tabindex="-1" href="#">Boxcar</a></li>
+            <li><a tabindex="-1" href="#">Brain Fart</a></li>
+            <li><a tabindex="-1" href="#">Brainteaser</a></li>
+            <li><a tabindex="-1" href="#">Bramble</a></li>
+            <li><a tabindex="-1" href="#">Brandon and Will's Coke Float</a></li>
+            <li><a tabindex="-1" href="#">Brandy Alexander</a></li>
+            <li><a tabindex="-1" href="#">Brandy Cobbler</a></li>
+            <li><a tabindex="-1" href="#">Brandy Flip</a></li>
+            <li><a tabindex="-1" href="#">Brandy Sour</a></li>
+            <li><a tabindex="-1" href="#">Brave Bull Shooter</a></li>
+            <li><a tabindex="-1" href="#">Brigadier</a></li>
+            <li><a tabindex="-1" href="#">Broadside</a></li>
+            <li><a tabindex="-1" href="#">Brooklyn</a></li>
+            <li><a tabindex="-1" href="#">Bruce's Puce</a></li>
+            <li><a tabindex="-1" href="#">Bruised Heart</a></li>
+            <li><a tabindex="-1" href="#">Bubble Gum</a></li>
+            <li><a tabindex="-1" href="#">Buccaneer</a></li>
+            <li><a tabindex="-1" href="#">Bumble Bee</a></li>
+            <li><a tabindex="-1" href="#">Butter Baby</a></li>
+            <li><a tabindex="-1" href="#">Butterfly Effect</a></li>
+
+
+          </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">C<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+        <li><a tabindex="-1" href="#">Cafe Savoy</a></li>
+        <li><a tabindex="-1" href="#">Caipirinha</a></li>
+        <li><a tabindex="-1" href="#">Caipirissima</a></li>
+        <li><a tabindex="-1" href="#">California Lemonade</a></li>
+        <li><a tabindex="-1" href="#">California Root Beer</a></li>
+        <li><a tabindex="-1" href="#">Campari Beer</a></li>
+        <li><a tabindex="-1" href="#">Captain Kidd's Punch</a></li>
+        <li><a tabindex="-1" href="#">Caribbean Boilermaker</a></li>
+        <li><a tabindex="-1" href="#">Caribbean Orange Liqueur</a></li>
+        <li><a tabindex="-1" href="#">Casa Blanca</a></li>
+        <li><a tabindex="-1" href="#">Casino</a></li>
+        <li><a tabindex="-1" href="#">Casino Royale</a></li>
+        <li><a tabindex="-1" href="#">Castillian Hot Chocolate</a></li>
+        <li><a tabindex="-1" href="#">Champagne Cocktail</a></li>
+        <li><a tabindex="-1" href="#">Cherry Electric Lemonade</a></li>
+        <li><a tabindex="-1" href="#">Cherry Rum</a></li>
+        <li><a tabindex="-1" href="#">Chicago Fizz</a></li>
+        <li><a tabindex="-1" href="#">Chocolate Beverage</a></li>
+        <li><a tabindex="-1" href="#">Chocolate Black Russian</a></li>
+        <li><a tabindex="-1" href="#">Chocolate Drink</a></li>
+        <li><a tabindex="-1" href="#">Chocolate Milk</a></li>
+        <li><a tabindex="-1" href="#">Chocolate Monkey</a></li>
+        <li><a tabindex="-1" href="#">Citrus Coke</a></li>
+        <li><a tabindex="-1" href="#">City Slicker</a></li>
+        <li><a tabindex="-1" href="#">Classic Old-Fashioned</a></li>
+        <li><a tabindex="-1" href="#">Clove Cocktail</a></li>
+        <li><a tabindex="-1" href="#">Clover Club</a></li>
+        <li><a tabindex="-1" href="#">Coffee Liqueur</a></li>
+        <li><a tabindex="-1" href="#">Coffee-Vodka</a></li>
+        <li><a tabindex="-1" href="#">Coke and Drops</a></li>
+        <li><a tabindex="-1" href="#">Corn n Oil</a></li>
+        <li><a tabindex="-1" href="#">Corpse Reviver</a></li>
+        <li><a tabindex="-1" href="#">Cosmopolitan</a></li>
+        <li><a tabindex="-1" href="#">Cosmopolitan Martini</a></li>
+        <li><a tabindex="-1" href="#">Cranberry Cordial</a></li>
+        <li><a tabindex="-1" href="#">Cranberry Punch</a></li>
+        <li><a tabindex="-1" href="#">Cream Soda</a></li>
+        <li><a tabindex="-1" href="#">Creme de Menthe</a></li>
+        <li><a tabindex="-1" href="#">Cuba Libra</a></li>
+        <li><a tabindex="-1" href="#">Cuba Libre</a></li>
+        </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">D<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+        <li><a tabindex="-1" href="#">Daiquiri</a></li>
+        <li><a tabindex="-1" href="#">Damned if You Do</a></li>
+        <li><a tabindex="-1" href="#">Danbooka</a></li>
+        <li><a tabindex="-1" href="#">Dark and Stormy</a></li>
+        <li><a tabindex="-1" href="#">Dark Caipirinha</a></li>
+        <li><a tabindex="-1" href="#">Darkwood Sling</a></li>
+        <li><a tabindex="-1" href="#">Death in the Afternoon</a></li>
+        <li><a tabindex="-1" href="#">Derby</a></li>
+        <li><a tabindex="-1" href="#">Diesel</a></li>
+        <li><a tabindex="-1" href="#">Dirty Martini</a></li>
+        <li><a tabindex="-1" href="#">Dirty Nipple</a></li>
+        <li><a tabindex="-1" href="#">Downshift</a></li>
+        <li><a tabindex="-1" href="#">Dragonfly</a></li>
+        <li><a tabindex="-1" href="#">Drinking Chocolate</a></li>
+        <li><a tabindex="-1" href="#">Dry Martini</a></li>
+        <li><a tabindex="-1" href="#">Dry Rob Roy</a></li>
+        <li><a tabindex="-1" href="#">Dubonnet Cocktail</a></li>
+        <li><a tabindex="-1" href="#">Duchamp's Punch</a></li>    
+        </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">E<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">Egg Cream</a></li>
+            <li><a tabindex="-1" href="#">Egg Nog #4</a></li>
+            <li><a tabindex="-1" href="#">Egg Nog - Healthy</a></li>
+            <li><a tabindex="-1" href="#">Egg-Nog - Classic Cooked</a></li>
+            <li><a tabindex="-1" href="#">Elderflower Caipirinha</a></li>
+            <li><a tabindex="-1" href="#">Empellón Cocina's Fat-Washed Mezcal</a></li>
+            <li><a tabindex="-1" href="#">English Highball</a></li>
+            <li><a tabindex="-1" href="#">English Rose Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Espresso Martini</a></li>
+            <li><a tabindex="-1" href="#">Espresso Rumtini</a></li>
+
+
+          
+          </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">F<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">Fahrenheit 5000</a></li>
+          <li><a tabindex="-1" href="#">Figgy Thyme</a></li>
+          <li><a tabindex="-1" href="#">Flaming Dr. Pepper</a></li>
+          <li><a tabindex="-1" href="#">Flaming Lamborghini</a></li>
+          <li><a tabindex="-1" href="#">Flander's Flake-Out</a></li>
+          <li><a tabindex="-1" href="#">Flying Dutchman</a></li>
+          <li><a tabindex="-1" href="#">Flying Scotchman</a></li>
+          <li><a tabindex="-1" href="#">Foxy Lady</a></li>
+          <li><a tabindex="-1" href="#">Frappé</a></li>
+          <li><a tabindex="-1" href="#">Freddy Kruger</a></li>
+          <li><a tabindex="-1" href="#">French 75</a></li>
+          <li><a tabindex="-1" href="#">French Connection</a></li>
+          <li><a tabindex="-1" href="#">French Martini</a></li>
+          <li><a tabindex="-1" href="#">French Negroni</a></li>
+          <li><a tabindex="-1" href="#">Frisco Sour</a></li>
+          <li><a tabindex="-1" href="#">Frosé</a></li>
+          <li><a tabindex="-1" href="#">Frozen Daiquiri</a></li>
+          <li><a tabindex="-1" href="#">Frozen Mint Daiquiri</a></li>
+          <li><a tabindex="-1" href="#">Frozen Pineapple Daiquiri</a></li>
+          <li><a tabindex="-1" href="#">Fruit Cooler</a></li>
+          <li><a tabindex="-1" href="#">Fruit Flip-Flop</a></li>
+          <li><a tabindex="-1" href="#">Fruit Shake</a></li>
+          <li><a tabindex="-1" href="#">Funk and Soul</a></li>
+          <li><a tabindex="-1" href="#">Fuzzy Asshole</a></li>
+
+            
+        </ul>
+        </li>  
+        <li>
+          <a class="test" tabindex="-1" href="#">G<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">Gagliardo</a></li>
+          <li><a tabindex="-1" href="#">Garibaldi Negroni</a></li>
+          <li><a tabindex="-1" href="#">Gentleman's Club</a></li>
+          <li><a tabindex="-1" href="#">GG</a></li>
+          <li><a tabindex="-1" href="#">Gideon's Green Dinosaur</a></li>
+          <li><a tabindex="-1" href="#">Gimlet</a></li>
+          <li><a tabindex="-1" href="#">Gin and Soda</a></li>
+          <li><a tabindex="-1" href="#">Gin and Tonic</a></li>
+          <li><a tabindex="-1" href="#">Gin Basil Smash</a></li>
+          <li><a tabindex="-1" href="#">Gin Cooler</a></li>
+          <li><a tabindex="-1" href="#">Gin Daisy</a></li>
+          <li><a tabindex="-1" href="#">Gin Fizz</a></li>
+          <li><a tabindex="-1" href="#">Gin Rickey</a></li>
+          <li><a tabindex="-1" href="#">Gin Sling</a></li>
+          <li><a tabindex="-1" href="#">Gin Smash</a></li>
+          <li><a tabindex="-1" href="#">Gin Sour</a></li>
+          <li><a tabindex="-1" href="#">Gin Squirt</a></li>
+          <li><a tabindex="-1" href="#">Gin Swizzle</a></li>
+          <li><a tabindex="-1" href="#">Gin Toddy</a></li>
+          <li><a tabindex="-1" href="#">Girl From Ipanema</a></li>
+          <li><a tabindex="-1" href="#">Gluehwein</a></li>
+          <li><a tabindex="-1" href="#">Godchild</a></li>
+          <li><a tabindex="-1" href="#">Godfather</a></li>
+          <li><a tabindex="-1" href="#">Godmother</a></li>
+          <li><a tabindex="-1" href="#">Golden Dream</a></li>
+          <li><a tabindex="-1" href="#">Grand Blue</a></li>
+          <li><a tabindex="-1" href="#">Grape Lemon Pineapple Smoothie</a></li>
+          <li><a tabindex="-1" href="#">Grass Skirt</a></li>
+          <li><a tabindex="-1" href="#">Grasshopper</a></li>
+          <li><a tabindex="-1" href="#">Green Goblin</a></li>
+          <li><a tabindex="-1" href="#">Greyhound</a></li>
+          <li><a tabindex="-1" href="#">Grim Reaper</a></li>
+          <li><a tabindex="-1" href="#">Grizzly Bear</a></li>
+
+          
+          </ul>
+        </li> 
+        <li>
+          <a class="test" tabindex="-1" href="#">H<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">H.D.</a></li>
+          <li><a tabindex="-1" href="#">Halloween Punch</a></li>
+          <li><a tabindex="-1" href="#">Happy Skipper</a></li>
+          <li><a tabindex="-1" href="#">Harvey Wallbanger</a></li>
+          <li><a tabindex="-1" href="#">Havana Cocktail</a></li>
+          <li><a tabindex="-1" href="#">Hawaiian Cocktail</a></li>
+          <li><a tabindex="-1" href="#">Hemingway Special</a></li>
+          <li><a tabindex="-1" href="#">Herbal Flame</a></li>
+          <li><a tabindex="-1" href="#">Highland Fling Cocktail</a></li>
+          <li><a tabindex="-1" href="#">Holloween Punch</a></li>
+          <li><a tabindex="-1" href="#">Homemade Kahlua</a></li>
+          <li><a tabindex="-1" href="#">Honey Bee</a></li>
+          <li><a tabindex="-1" href="#">Horse's Neck</a></li>
+          <li><a tabindex="-1" href="#">Hot Chocolate to Die for</a></li>
+          <li><a tabindex="-1" href="#">Hot Creamy Bush</a></li>
+          <li><a tabindex="-1" href="#">Hot Toddy</a></li>
+          <li><a tabindex="-1" href="#">Hunter's Moon</a></li>
+
+          
+          </ul>
+        </li>
+        <li>
+          <a class="test" tabindex="-1" href="#">I<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">Ice Pick</a></li>
+          <li><a tabindex="-1" href="#">Iced Coffee</a></li>
+          <li><a tabindex="-1" href="#">Iced Coffee Fillip</a></li>
+          <li><a tabindex="-1" href="#">Imperial Cocktail</a></li>
+          <li><a tabindex="-1" href="#">Imperial Fizz</a></li>
+          <li><a tabindex="-1" href="#">Ipamena</a></li>
+          <li><a tabindex="-1" href="#">Irish Coffee</a></li>
+          <li><a tabindex="-1" href="#">Irish Cream</a></li>
+          <li><a tabindex="-1" href="#">Irish Curdling Cow</a></li>
+          <li><a tabindex="-1" href="#">Irish Russian</a></li>
+          <li><a tabindex="-1" href="#">Irish Spring</a></li>
+
+           </ul>
+        </li>   
+          <li>
+            <a class="test" tabindex="-1" href="#">J<span class="caret"></span></a>
+            <ul class ="dropdown-menu">
+            <li><a tabindex="-1" href="#">Jack Rose Cocktail</a></li>
+            <li><a tabindex="-1" href="#">Jack's Vanilla Coke</a></li>
+            <li><a tabindex="-1" href="#">Jackhammer</a></li>
+            <li><a tabindex="-1" href="#">Jam Donut</a></li>
+            <li><a tabindex="-1" href="#">Jamaica Kiss</a></li>
+            <li><a tabindex="-1" href="#">Jamaican Coffee</a></li>
+            <li><a tabindex="-1" href="#">Japanese Fizz</a></li>
+            <li><a tabindex="-1" href="#">Jello Shot</a></li>
+            <li><a tabindex="-1" href="#">Jelly Bean</a></li>
+            <li><a tabindex="-1" href="#">Jewel Of The Nile</a></li>
+            <li><a tabindex="-1" href="#">Jitterbug</a></li>
+            <li><a tabindex="-1" href="#">John Collins</a></li>
+            <li><a tabindex="-1" href="#">Just a Moonmint</a></li>
+
+            
+            </ul>
+          </li>
+          <li>
+            <a class="test" tabindex="-1" href="#">K<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">Kamikaze</a></li>
+            <li><a tabindex="-1" href="#">Karsk</a></li>
+            <li><a tabindex="-1" href="#">Kentucky B And B</a></li>
+            <li><a tabindex="-1" href="#">Kentucky Colonel</a></li>
+            <li><a tabindex="-1" href="#">Kill the Cold Smoothie</a></li>
+            <li><a tabindex="-1" href="#">Kioki Coffee</a></li>
+            <li><a tabindex="-1" href="#">Kir</a></li>
+            <li><a tabindex="-1" href="#">Kir Royale</a></li>
+            <li><a tabindex="-1" href="#">Kiss me Quick</a></li>
+            <li><a tabindex="-1" href="#">Kiwi Lemon</a></li>
+            <li><a tabindex="-1" href="#">Kiwi Papaya Smoothie</a></li>
+            <li><a tabindex="-1" href="#">Kool First Aid</a></li>
+            <li><a tabindex="-1" href="#">Kool-Aid Shot</a></li>
+            <li><a tabindex="-1" href="#">Kool-Aid Slammer</a></li>
+            <li><a tabindex="-1" href="#">Kurant Tea</a></li>
+            
+            </ul>
+            </li>  
+      
+            <li>
+              <a class="test" tabindex="-1" href="#">L<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Lady Love Fizz</a></li>
+              <li><a tabindex="-1" href="#">Lassi - A South Indian Drink</a></li>
+              <li><a tabindex="-1" href="#">Lassi - Mango</a></li>
+              <li><a tabindex="-1" href="#">Lassi - Sweet</a></li>
+              <li><a tabindex="-1" href="#">Lassi Khara</a></li>
+              <li><a tabindex="-1" href="#">Lassi Raita</a></li>
+              <li><a tabindex="-1" href="#">Lazy Coconut Paloma</a></li>
+              <li><a tabindex="-1" href="#">Lemon Drop</a></li>
+              <li><a tabindex="-1" href="#">Lemon Shot</a></li>
+              <li><a tabindex="-1" href="#">Lemouroudji</a></li>
+              <li><a tabindex="-1" href="#">Limeade</a></li>
+              <li><a tabindex="-1" href="#">Limona Corona</a></li>
+              <li><a tabindex="-1" href="#">Loch Lomond</a></li>
+              <li><a tabindex="-1" href="#">London Town</a></li>
+              <li><a tabindex="-1" href="#">Lone Tree Cocktail</a></li>
+              <li><a tabindex="-1" href="#">Lone Tree Cooler</a></li>
+              <li><a tabindex="-1" href="#">Long Island Iced Tea</a></li>
+              <li><a tabindex="-1" href="#">Long Island Tea</a></li>
+              <li><a tabindex="-1" href="#">Long Vodka</a></li>
+              <li><a tabindex="-1" href="#">Lord And Lady</a></li>
+              <li><a tabindex="-1" href="#">Lunch Box</a></li>
+              
+              
+              
+              
+              
+              </ul>
+              </li>
+              
+              <li>
+              <a class="test" tabindex="-1" href="#">M<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Mai Tai</a></li>
+              <li><a tabindex="-1" href="#">Malibu Twister</a></li>
+              <li><a tabindex="-1" href="#">Mango Orange Smoothie</a></li>
+              <li><a tabindex="-1" href="#">Manhattan</a></li>
+              <li><a tabindex="-1" href="#"><Margarita/a></li>
+              <li><a tabindex="-1" href="#">Martinez 2</a></li>
+              <li><a tabindex="-1" href="#">Martinez Cocktail</a></li>
+              <li><a tabindex="-1" href="#">Martini</a></li>
+              <li><a tabindex="-1" href="#">Mary Pickford</a></li>
+              <li><a tabindex="-1" href="#">Masala Chai</a></li>
+              <li><a tabindex="-1" href="#">Melya</a></li>
+              <li><a tabindex="-1" href="#">Miami Vice</a></li>
+              <li><a tabindex="-1" href="#">Michelada</a></li>
+              <li><a tabindex="-1" href="#">Microwave Hot Cocoa</a></li>
+              <li><a tabindex="-1" href="#">Midnight Cowboy</a></li>
+              <li><a tabindex="-1" href="#">Midnight Manx</a></li>
+              <li><a tabindex="-1" href="#">Midnight Mint</a></li>
+              <li><a tabindex="-1" href="#">Mimosa</a></li>
+              <li><a tabindex="-1" href="#">Mint Julep</a></li>
+              <li><a tabindex="-1" href="#">Mississippi Planters Punch</a></li>
+              <li><a tabindex="-1" href="#">Mocha-Berry</a></li>
+              <li><a tabindex="-1" href="#">Mojito</a></li>
+              <li><a tabindex="-1" href="#">Mojito Extra</a></li>
+              <li><a tabindex="-1" href="#">Monkey Gland</a></li>
+              <li><a tabindex="-1" href="#">Monkey Wrench</a></li>
+              <li><a tabindex="-1" href="#">Moranguito</a></li>
+              <li><a tabindex="-1" href="#">Moscow Mule</a></li>
+              <li><a tabindex="-1" href="#">Mother's Milk</a></li>
+              <li><a tabindex="-1" href="#">Mountain Bramble</a></li>
+              <li><a tabindex="-1" href="#">Mudslinger</a></li>
+              <li><a tabindex="-1" href="#">Mulled Wine</a></li>
+              <li><a tabindex="-1" href="#">Munich Mule</a></li>
+              
+              </ul>
+              </li>
+              
+              <li>
+                <a class="test" tabindex="-1" href="#">N<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                
+                
+                <li><a tabindex="-1" href="#">National Aquarium</a></li>
+                <li><a tabindex="-1" href="#">Negroni</a></li>
+                <li><a tabindex="-1" href="#">New York Lemonade</a></li>
+                <li><a tabindex="-1" href="#">New York Sour</a></li>
+                <li><a tabindex="-1" href="#">Nuked Hot Chocolate</a></li>
+                <li><a tabindex="-1" href="#">Nutty Irishman</a></li>
+                
+                
+                
+                </ul>
+                </li>
+                
+                
+                
+                <li>
+                <a class="test" tabindex="-1" href="#">O<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                
+                
+                <li><a tabindex="-1" href="#">Oatmeal Cookie</a></li>
+                <li><a tabindex="-1" href="#">Old Fashioned</a></li>
+                <li><a tabindex="-1" href="#">Old Pal</a></li>
+                <li><a tabindex="-1" href="#">Orange Crush</a></li>
+                <li><a tabindex="-1" href="#">Orange Oasis</a></li>
+                <li><a tabindex="-1" href="#">Orange Push-up</a></li>
+                <li><a tabindex="-1" href="#">Orange Rosemary Collins</a></li>
+                <li><a tabindex="-1" href="#">Orange Scented Hot Chocolate</a></li>
+                <li><a tabindex="-1" href="#">Orange Whip</a></li>
+                <li><a tabindex="-1" href="#">Orangeade</a></li>
+                <li><a tabindex="-1" href="#">Oreo Mudslide</a></li>
+                <li><a tabindex="-1" href="#">Orgasm</a></li>
+                <li><a tabindex="-1" href="#">Owen's Grandmother's Revenge</a></li>
+                
+                
+                
+                
+                </ul>
+                </li>
+                
+                <li>
+                <a class="test" tabindex="-1" href="#">P<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                
+                
+                <li><a tabindex="-1" href="#">Paloma</a></li>
+                <li><a tabindex="-1" href="#">Paradise</a></li>
+                <li><a tabindex="-1" href="#">Passion Fruit Martini</a></li>
+                <li><a tabindex="-1" href="#">Pegu Club</a></li>
+                <li><a tabindex="-1" href="#">Penicillin</a></li>
+                <li><a tabindex="-1" href="#">Pina Colada</a></li>
+                <li><a tabindex="-1" href="#">Pineapple Gingerale Smoothie</a></li>
+                <li><a tabindex="-1" href="#">Pineapple Paloma</a></li>
+                <li><a tabindex="-1" href="#">Pink Gin</a></li>
+                <li><a tabindex="-1" href="#">Pink Lady</a></li>
+                <li><a tabindex="-1" href="#">Pink Moon</a></li>
+                <li><a tabindex="-1" href="#">Pink Panty Pulldowns</a></li>
+                <li><a tabindex="-1" href="#">Pink Penocha</a></li>
+                <li><a tabindex="-1" href="#">Pisco Sour</a></li>
+                <li><a tabindex="-1" href="#">Planter's Punch</a></li>
+                <li><a tabindex="-1" href="#">Popped cherry</a></li>
+                <li><a tabindex="-1" href="#">Poppy Cocktail</a></li>
+                <li><a tabindex="-1" href="#">Port And Starboard</a></li>
+                <li><a tabindex="-1" href="#">Port Wine Cocktail</a></li>
+                <li><a tabindex="-1" href="#">Port Wine Flip</a></li>
+                <li><a tabindex="-1" href="#">Porto flip</a></li>
+                <li><a tabindex="-1" href="#">Pure Passion</a></li>
+                <li><a tabindex="-1" href="#">Pysch Vitamin Light</a></li>
+                
+                
+                
+                
+                
+                
+                </ul>
+                </li>
+                
+                
+                <li>
+                <a class="test" tabindex="-1" href="#">Q<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                
+                
+                <li><a tabindex="-1" href="#">Quaker's Cocktail</a></li>
+                <li><a tabindex="-1" href="#">Quarter Deck Cocktail</a></li>
+                <li><a tabindex="-1" href="#">Queen Bee</a></li>
+                <li><a tabindex="-1" href="#">Queen Charlotte</a></li>
+                <li><a tabindex="-1" href="#">Queen Elizabeth</a></li>
+                <li><a tabindex="-1" href="#">Quentin</a></li>
+                <li><a tabindex="-1" href="#">Quick F**K</a></li>
+                <li><a tabindex="-1" href="#">Quick-sand</a></li>
+                
+                </ul>
+                </li>
+                
+                
+                
+                <li>
+                <a class="test" tabindex="-1" href="#">R<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                
+                
+                <li><a tabindex="-1" href="#">Radioactive Long Island Iced Tea</a></li>
+                <li><a tabindex="-1" href="#">Radler</a></li>
+                <li><a tabindex="-1" href="#">Rail Splitter</a></li>
+                <li><a tabindex="-1" href="#">Raspberry Cooler</a></li>
+                <li><a tabindex="-1" href="#">Raspberry Julep</a></li>
+                <li><a tabindex="-1" href="#">Red Snapper</a></li>
+                <li><a tabindex="-1" href="#">Rose</a></li>
+                <li><a tabindex="-1" href="#">Rosemary Blue</a></li>
+                <li><a tabindex="-1" href="#">Royal Bitch</a></li>
+                <li><a tabindex="-1" href="#">Royal Fizz</a></li>
+                <li><a tabindex="-1" href="#">Royal Flush</a></li>
+                <li><a tabindex="-1" href="#">Royal Gin Fizz</a></li>
+                <li><a tabindex="-1" href="#">Ruby Tuesday</a></li>
+                <li><a tabindex="-1" href="#">Rum Cobbler</a></li>
+                <li><a tabindex="-1" href="#">Rum Cooler</a></li>
+                <li><a tabindex="-1" href="#">Rum Milk Punch</a></li>
+                <li><a tabindex="-1" href="#">Rum Old-fashioned</a></li>
+                <li><a tabindex="-1" href="#">Rum Punch</a></li>
+                <li><a tabindex="-1" href="#">Rum Runner</a></li>
+                <li><a tabindex="-1" href="#">Rum Screwdriver</a></li>
+                <li><a tabindex="-1" href="#">Rum Sour</a></li>
+                <li><a tabindex="-1" href="#">Rum Toddy</a></li>
+                <li><a tabindex="-1" href="#">Russian Spring Punch</a></li>
+                <li><a tabindex="-1" href="#">Rusty Nail</a></li>
+                
+                </ul>
+                </li>
+              
+                <li>
+                  <a class="test" tabindex="-1" href="#">S<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Salted Toffee Martini</a></li>
+                  <li><a tabindex="-1" href="#">Salty Dog</a></li>
+                  <li><a tabindex="-1" href="#">San Francisco</a></li>
+                  <li><a tabindex="-1" href="#">Sangria</a></li>
+                  <li><a tabindex="-1" href="#">Sangria The Best</a></li>
+                  <li><a tabindex="-1" href="#">Sazerac</a></li>
+                  <li><a tabindex="-1" href="#">Scooter</a></li>
+                  <li><a tabindex="-1" href="#">Scotch Cobbler</a></li>
+                  <li><a tabindex="-1" href="#">Scotch Sour</a></li>
+                  <li><a tabindex="-1" href="#">Scottish Highland Liqueur</a></li>
+                  <li><a tabindex="-1" href="#">Screaming Orgasm</a></li>
+                  <li><a tabindex="-1" href="#">Screwdriver</a></li>
+                  <li><a tabindex="-1" href="#">Sea breeze</a></li>
+                  <li><a tabindex="-1" href="#">Sex on the Beach</a></li>
+                  <li><a tabindex="-1" href="#">Shanghai Cocktail</a></li>
+                  <li><a tabindex="-1" href="#">Shark Attack</a></li>
+                  <li><a tabindex="-1" href="#">Sherry Eggnog</a></li>
+                  <li><a tabindex="-1" href="#">Sherry Flip</a></li>
+                  <li><a tabindex="-1" href="#">Shot-gun</a></li>
+                  <li><a tabindex="-1" href="#">Sidecar</a></li>
+                  <li><a tabindex="-1" href="#">Sidecar Cocktail</a></li>
+                  <li><a tabindex="-1" href="#">Singapore Sling</a></li>
+                  <li><a tabindex="-1" href="#">Slippery Nipple</a></li>
+                  <li><a tabindex="-1" href="#">Sloe Gin Cocktail</a></li>
+                  <li><a tabindex="-1" href="#">Smashed Watermelon Margarita</a></li>
+                  <li><a tabindex="-1" href="#">Smut</a></li>
+                  <li><a tabindex="-1" href="#">Snake Bite (UK)</a></li>
+                  <li><a tabindex="-1" href="#">Snakebite and Black</a></li>
+                  <li><a tabindex="-1" href="#">Snowball</a></li>
+                  <li><a tabindex="-1" href="#">Snowday</a></li>
+                  <li><a tabindex="-1" href="#">Sol Y Sombra</a></li>
+                  <li><a tabindex="-1" href="#">Space Odyssey</a></li>
+                  <li><a tabindex="-1" href="#">Spanish chocolate</a></li>
+                  <li><a tabindex="-1" href="#">Spice 75</a></li>
+                  <li><a tabindex="-1" href="#">Spiced Peach Punch</a></li>
+                  <li><a tabindex="-1" href="#">Spiking coffee</a></li>
+                  <li><a tabindex="-1" href="#">Spritz</a></li>
+                  <li><a tabindex="-1" href="#">Spritz Veneziano</a></li>
+                  <li><a tabindex="-1" href="#">Stinger</a></li>
+                  <li><a tabindex="-1" href="#">Stone Sour</a></li>
+                  <li><a tabindex="-1" href="#">Strawberry Daiquiri</a></li>
+                  <li><a tabindex="-1" href="#">Strawberry Lemonade</a></li>
+                  <li><a tabindex="-1" href="#">Strawberry Margarita</a></li>
+                  <li><a tabindex="-1" href="#">Strawberry Shivers</a></li>
+                  <li><a tabindex="-1" href="#">Sunny Holiday Punch</a></li>
+                  <li><a tabindex="-1" href="#">Surf City Lifesaver</a></li>
+                  <li><a tabindex="-1" href="#">Swedish Coffee</a></li>
+                  <li><a tabindex="-1" href="#">Sweet Bananas</a></li>
+                  <li><a tabindex="-1" href="#">Sweet Sangria</a></li>
+                  <li><a tabindex="-1" href="#">Sweet Tooth</a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">T<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Talos Coffee</a></li>
+                  <li><a tabindex="-1" href="#">Tennesee Mud</a></li>
+                  <li><a tabindex="-1" href="#">Tequila Fizz</a></li>
+                  <li><a tabindex="-1" href="#">Tequila Slammer</a></li>
+                  <li><a tabindex="-1" href="#">Tequila Sour</a></li>
+                  <li><a tabindex="-1" href="#">Tequila Sunrise</a></li>
+                  <li><a tabindex="-1" href="#">Tequila Surprise</a></li>
+                  <li><a tabindex="-1" href="#">Texas Rattlesnake</a></li>
+                  <li><a tabindex="-1" href="#">Texas Sling</a></li>
+                  <li><a tabindex="-1" href="#">Thai Coffee</a></li>
+                  <li><a tabindex="-1" href="#">Thai Iced Coffee</a></li>
+                  <li><a tabindex="-1" href="#">Thai Iced Tea</a></li>
+                  <li><a tabindex="-1" href="#">The Evil Blue Thing</a></li>
+                  <li><a tabindex="-1" href="#">The Galah</a></li>
+                  <li><a tabindex="-1" href="#">The Jimmy Conway</a></li>
+                  <li><a tabindex="-1" href="#">The Last Word</a></li>
+                  <li><a tabindex="-1" href="#">The Laverstoke</a></li>
+                  <li><a tabindex="-1" href="#">The Philosopher</a></li>
+                  <li><a tabindex="-1" href="#">The Strange Weaver</a></li>
+                  <li><a tabindex="-1" href="#">Thriller</a></li>
+                  <li><a tabindex="-1" href="#">Tia-Maria</a></li>
+                  <li><a tabindex="-1" href="#">Tipperary</a></li>
+                  <li><a tabindex="-1" href="#">Tom Collins</a></li>
+                  <li><a tabindex="-1" href="#">Tomato Tang</a></li>
+                  <li><a tabindex="-1" href="#">Tommy's Margarita</a></li>
+                  <li><a tabindex="-1" href="#">Turf Cocktail</a></li>
+                  <li><a tabindex="-1" href="#">Turkeyball</a></li>
+                  <li><a tabindex="-1" href="#">Tuxedo Cocktail</a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">U<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#"></a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">V<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Valencia Cocktail</a></li>
+                  <li><a tabindex="-1" href="#">Vampiro</a></li>
+                  <li><a tabindex="-1" href="#">Van Vleet</a></li>
+                  <li><a tabindex="-1" href="#">Vermouth Cassis</a></li>
+                  <li><a tabindex="-1" href="#">Vesper</a></li>
+                  <li><a tabindex="-1" href="#">Vesuvio</a></li>
+                  <li><a tabindex="-1" href="#">Veteran</a></li>
+                  <li><a tabindex="-1" href="#">Victor</a></li>
+                  <li><a tabindex="-1" href="#">Victory Collins</a></li>
+                  <li><a tabindex="-1" href="#">Vodka And Tonic</a></li>
+                  <li><a tabindex="-1" href="#">Vodka Fizz</a></li>
+                  <li><a tabindex="-1" href="#">Vodka Martini</a></li>
+                  <li><a tabindex="-1" href="#">Vodka Russian</a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">W<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Waikiki Beachcomber</a></li>
+                  <li><a tabindex="-1" href="#">Whiskey Sour</a></li>
+                  <li><a tabindex="-1" href="#">Whisky Mac</a></li>
+                  <li><a tabindex="-1" href="#">White Lady</a></li>
+                  <li><a tabindex="-1" href="#">White Russian</a></li>
+                  <li><a tabindex="-1" href="#">White Wine Sangria</a></li>
+                  <li><a tabindex="-1" href="#">Whitecap Margarita</a></li>
+                  <li><a tabindex="-1" href="#">Wine Cooler</a></li>
+                  <li><a tabindex="-1" href="#">Wine Punch</a></li>
+                  <li><a tabindex="-1" href="#">Winter Paloma</a></li>
+                  <li><a tabindex="-1" href="#">Winter Rita</a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">X<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#"></a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">Y<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Yellow Bird</a></li>
+                  <li><a tabindex="-1" href="#">Yoghurt Cooler</a></li>
+                  </ul>
+                  </li>
+                  
+                  
+                  <li>
+                  <a class="test" tabindex="-1" href="#">Z<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Zambeer</a></li>
+                  <li><a tabindex="-1" href="#">Zenmeister</a></li>
+                  <li><a tabindex="-1" href="#">Ziemes Martini Apfelsaft</a></li>
+                  <li><a tabindex="-1" href="#">Zima Blaster</a></li>
+                  <li><a tabindex="-1" href="#">Zimadori Zinger</a></li>
+                  <li><a tabindex="-1" href="#">Zinger</a></li>
+                  <li><a tabindex="-1" href="#">Zipperhead</a></li>
+                  <li><a tabindex="-1" href="#">Zippy's Revenge</a></li>
+                  <li><a tabindex="-1" href="#">Zizi Coin-coin</a></li>
+                  <li><a tabindex="-1" href="#">Zoksel</a></li>
+                  <li><a tabindex="-1" href="#">Zombie</a></li>
+                  <li><a tabindex="-1" href="#">Zorbatini</a></li>
+                  <li><a tabindex="-1" href="#">Zorro</a></li>
+                  </ul>
+                  </li>
+                  
+              
+                
+              
+           
+            
+
+
+    </ul>
+     
+    </div>  </div>
+  <script>
+    $(document).ready(function(){
+      $('.dropdown a.test').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+    </script>
+
+
+
     <h1>Drink maker</h1>
 
 
-    <h3>Pick a drink</h3>
+    <h3>Type in a drink!</h3>
     <form class="review-form" id="pick-drink">
       <textarea id="pick-drink-input"></textarea>
       <input type="submit" value="Submit">
@@ -26,6 +875,8 @@
     <img alt="your drink" id="drink-pic" src ="https://pyxis.nymag.com/v1/imgs/06d/aaa/27d77ea140005c453f20ba32f5bef05a27-10-giuseppe-gonzalez-2.rsquare.w700.jpg" style="width:500px;height:600px;"> 
 
     <p id="instruction"></p>
+    <p id="ing"></p>
+    <p id="mea"></p>
 </body>
 
 
