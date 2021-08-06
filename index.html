@@ -15,23 +15,26 @@
     <script type ="text/javascript" src ="index.js" defer></script>
    
     <script type ="text/javascript" src ="index.js" defer></script>
+
+    
   
 </head>
 
 
 <body>
   
+  <h1 style=>Ye Old 071921 Bar</h1>
 
   <div class="container">
     <h2>Pick your drink!</h2>
-    <div class="dropdown">
+    <div class="dropdown" id="big-drop">
       <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Drinks
       <span class="caret"></span></button>
       <ul class="dropdown-menu" id="drop">
         
         <li>
           <a class="test" tabindex="-1" href="#">A<span class="caret"></span></a>
-          <ul class="dropdown-menu column4">
+          <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">A Day at the Beach</a></li>
             <li><a tabindex="-1" href="#">A Furlong Too Late</a></li>
             <li><a tabindex="-1" href="#">A Gilligan's Island</a></li>
@@ -859,25 +862,88 @@
         e.preventDefault();
       });
     });
+
+
+
     </script>
 
 
+<section class="section-alternative">
 
-    <h1>Drink maker</h1>
+ 
+
+  <div id="roulette">
+    <h4>Feeling lucky? Scroll over the wheel for a random drink!</h>
+    <h4 id=found-drink></h4>
+    <img alt="Roulette wheel" id="wheel" src ="https://www.casino.org/blog/wp-content/uploads/roulette-wheel-1.jpg" style="width:250px;height:300px;"> 
+  </div>
 
 
-    <h3>Type in a drink!</h3>
-    <form class="review-form" id="pick-drink">
-      <textarea id="pick-drink-input"></textarea>
-      <input type="submit" value="Submit">
-    </form>
+  <h3>Type in a drink!</h3>
+  <form class="review-form" id="pick-drink">
+  <textarea id="pick-drink-input"></textarea>
+  <input type="submit" value="Submit">
+  </form>
+ 
+ 
+ <h2 id="your-drink"></h2>
+ 
+  <img alt="your drink" id="drink-pic" src ="https://pyxis.nymag.com/v1/imgs/06d/aaa/27d77ea140005c453f20ba32f5bef05a27-10-giuseppe-gonzalez-2.rsquare.w700.jpg" style="width:500px;height:600px;"> 
+</div>
 
-    <img alt="your drink" id="drink-pic" src ="https://pyxis.nymag.com/v1/imgs/06d/aaa/27d77ea140005c453f20ba32f5bef05a27-10-giuseppe-gonzalez-2.rsquare.w700.jpg" style="width:500px;height:600px;"> 
+  <section class="sub-section-alternative"> 
+ 
+ 
+  <div id="description">
+ 
+  <p id="instruction"></p>
+ 
+  </div>
+  
+  
+  <div class="ingredients-container"> 
+  <p class="ing-mea" id="ing">Ingredients</p>
+  
+  <p class="ing-mea" id="mea">Measurements</p>
+  </div>
+ 
+ 
+  </section>
+ 
+ </section>
 
-    <p id="instruction"></p>
-    <p id="ing"></p>
-    <p id="mea"></p>
-</body>
+
+<!--     
+    
+  
+    <div class="container">
+      <form class="add-drink-form">
+        <h3>Save a drink!</h3>
+
+        <input id="dom-input"
+          type="text"
+          name="name"
+          value=""
+          placeholder="Drink goes here"
+          class="input-text"
+        />
+       
+        <input id="save-drink"
+          type="submit"
+          name="submit"
+          value="Create Drink"
+          class="submit"
+        />
+      </form>
+    
+    <div id="saved-drinks"></div>  -->
+
+
+      
+
+
+  </body>
+
 
 
 

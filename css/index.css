@@ -1,5 +1,114 @@
-body {background-color: cornflowerblue;}
 
 
 .dropdown-menu {columns: 3;}
 
+body {
+    background-color: cornflowerblue;
+    text-align: left;
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+   }
+   
+   nav {
+    display: flex;
+    justify-content: space-between;
+   }
+   
+   .button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+   }
+   
+   .button:hover {
+    background-color: #ef744b;
+   }
+   
+   .button:active {
+    background-color: #A9a9a9;
+    color: #808080;
+   }
+   
+   .dropdown-menu {columns: 3;}
+   
+   
+   .review-form {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 25px;
+   }
+   
+   
+   p #instruction {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 80px;
+    width: 90px;
+    height: 200px;
+   
+   }
+   
+   
+   
+   /* #drink-pic{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 80px; 
+   } */
+   
+   h1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color:  goldenrod;
+   }
+   
+   h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+   }
+   
+   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+   }
+   
+   .dropdown{
+   
+   }
+   
+   .ingredients-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+   
+   }
+   
+   .ing-mea {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+   }
+   
+   .section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: cennter;
+    padding: 5px;
+   }
+   
