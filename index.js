@@ -15,7 +15,7 @@ document.querySelector("#pick-drink").addEventListener("submit", (e) => {
   .then(response => response.json())
   .then((drink) => {
     
-
+    console.log(drink)
     let pic = document.querySelector("#drink-pic")
     pic.src = drink.drinks[0].strDrinkThumb
     
@@ -279,17 +279,56 @@ document.querySelector("#wheel").addEventListener("mouseenter", (e) => {
 
 
 
-  // fetch('http://localhost:3000/drinks', {
-  //     method: "POST",
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     },
-  //     body: JSON.stringify(savedDrink),
-  //   })
-  //   .then(resp => resp.json())
-  //   .then(renderDrink(drink))
+    document.querySelector("#save-drink").addEventListener("click", (e) => {
+      e.preventDefault()
+      console.log((e))
+
+      
+      let x;
+      x = document.createElement("li");
+      x.innerText = document.querySelector("#text-input").value
+      savedDrink = {
+        name: x.innerText
+      }
+
+      fetch('http://localhost:3000/drinks', {
+        method: "POST",
+        headers: {
+        'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(savedDrink),
+      })
+      .then(resp => resp.json())
+      .then(document.querySelector("#saved-drinks").appendChild(x))})
 
 
+function init(){
+
+      fetch(`http://localhost:3000/drinks`)
+      .then(response => response.json())
+      .then((drink) => {
+        drinkNamesFetched = drink.map(value => value.name);
+
+     
+       drinkNamesFetched.forEach(element => {
+        let y = document.createElement("li") 
+        y.innerText = element;
+        document.querySelector("#old-drinks").appendChild(y)
+        }
+         ) 
+      })}
+
+init()
+
+document.querySelector("#delete-drinks").addEventListener("click", (e) => {
+  let id = 0
+  while (id <= 40) {
+  fetch(`http://localhost:3000/drinks/${id}`, {
+  method: "DELETE"
+
+}); id++; }
+
+})
 
 
 
