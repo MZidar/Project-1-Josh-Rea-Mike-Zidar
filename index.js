@@ -195,7 +195,7 @@ document.querySelector("#drop").addEventListener("click", (e) => {
 document.querySelector("#wheel").addEventListener("mouseenter", (e) => {
   fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
   .then(response => response.json())
-  .then((drink) => {3
+  .then((drink) => {
 
     e.preventDefault()
   
@@ -332,3 +332,21 @@ document.querySelector("#delete-drinks").addEventListener("click", (e) => {
 
 
 
+function init2(){
+  fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Orange_Juice`)
+  .then(response => response.json())
+  .then((drink) => {
+ 
+
+    OJFetch = drink.drinks.map(value => value.strDrink)
+
+
+   OJFetch.forEach(element => {
+    let q = document.createElement("li") 
+    q.innerText = element;
+    document.querySelector("#OJ").appendChild(q)
+    }
+     ) 
+  })}
+
+  init2()
